@@ -1,3 +1,14 @@
-📁 verify/
-├── index.html → RGCO verification home page
-└── doc_RGCO-INV202507-YY882.html → Verified invitation document for Yeamin
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RGCO Verification Portal</title>
+</head>
+<body>
+  <h1>Welcome to RGCO Verification</h1>
+  <p>This portal confirms the authenticity of documents issued by Risenova Global Certification Office.</p>
+  <ul>
+    <li><a href="doc_RGCO-INV202507-YY882.html">Verify: RGCO-INV202507-YY882 (Yeamin)</a></li>
+  </ul>
+</body>
+</html>
