@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RGCO Portal</title>
+</head>
+<body>
+  <h1>RGCO Verification Portal</h1>
+  <p>Welcome to the official document verification platform.</p>
+
+  <ul>
+    <li>
+      <a href="doc_RGCO-INV202507-YY882.html">
+        Verify RGCO-INV202507-YY882 (Md. Yeamin)
+      </a>
+    </li>
+  </ul>
+</body>
+</html>
