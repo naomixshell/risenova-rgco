@@ -1,0 +1,50 @@
+# Risenova Global Certification Office (RGCO)
+
+🇯🇵 Visa-compliant document verification system  
+**認証機構 | RGCO | 書類検証と信頼管理プラットフォーム**
+
+---
+
+### 📄 What is this?
+
+This repository powers the RGCO document verification portal for:
+- ✅ Invitation Letters
+- ✅ Visa Support Letters
+- ✅ Offer / Experience Certificates
+
+Every document is QR-linked and backed by sealed metadata.  
+Once issued, documents are immutable and archived securely.
+
+---
+
+### 🔐 Security Features
+
+- ✔ Microtext seal (SVG embedded)
+- ✔ Signature overlay (Tanaka asymmetric)
+- ✔ QR verification → `/verify/doc_*`
+- ✔ Line-weight seal variation
+- ✔ Optional: JSON integrity block + public timestamp
+
+---
+
+### 📁 Folder Guide
+
+| Folder       | Purpose                              |
+|--------------|--------------------------------------|
+| `/verify/`   | Verified HTML files (QR landing)     |
+| `/docs/`     | Embassy-ready PDF files              |
+| `/archive/`  | Finalized versions (locked)          |
+| `/metadata/` | Master logsheet (XLSX/JSON)          |
+| `/assets/`   | Brand + seal + signature overlays    |
+
+---
+
+### 🌐 Domain
+
+→ [https://risenova-jp.com](https://risenova-jp.com)  
+→ [https://risenova-jp.com/verify/](https://risenova-jp.com/verify/)
+
+---
+
+📌 Maintained by RGCO (Tokyo HQ)  
+📧 Contact: ceo@risenova-jp.com  
